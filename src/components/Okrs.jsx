@@ -35,7 +35,7 @@ const Okrs = () => {
           onChange={(_, { value }) => setFiltered(value)}
           selection
           style={{ margin: "40px 40px 40px 0" }}
-          placeholder="Filter by"
+          placeholder="Filter by Category"
           options={getFilterByOptions(data)}
         />
       </div>
